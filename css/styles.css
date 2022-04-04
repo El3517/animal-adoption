@@ -1,0 +1,143 @@
+/* Homepage */
+.Home{
+    background-image: url(../img/img3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.Header h1{
+    font-size: 70px;
+    text-align: center;
+    color: purple;
+    margin-top: 30px;
+    font-family: cursive;
+}
+.Header p{
+    font-size: 40px;
+    text-align: center;
+    color: purple;
+    font-family: cursive;
+}
+label{
+    font-size: 30px;
+    color: greenyellow;
+    margin-right: 800px;
+    font-family: cursive;
+}
+ul{background-color: purple;
+    
+}
+
+.nav-link{
+    color: white;
+
+}
+/* gallery  */
+.gallery{
+   font-size: 30px;
+   margin-top: 20px;
+   font-family: cursive;
+}
+.Adoption{
+    text-align: center;
+    color: purple;
+    font-family: cursive;
+}
+/* Dog part  */
+h3{
+    color: white;
+    font-size: 20px;
+}
+.para{
+    color: white;
+    font-size: 10px;
+    font-family: cursive;
+}
+.container{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.card{
+    background-color: purple;
+}
+.card-text{
+    color: white;
+}
+.card-title{
+    color: white;
+}
+.herold{
+    color: purple;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 30px;
+}
+/* About us */
+.Funke{
+    background-color: #f0f2f5;
+    font-family: fantasy;
+    color: black;
+}
+.Bunda{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+header{
+    font-size: 20px;
+
+}
+header ul img{
+    width: 50px;
+    margin-right: 800px; 
+}
+.nav-item{
+    color: white;
+    text-decoration: none;
+}
+.copy{
+    background-color: black;
+    height: 200px;
+}
+.senior{
+    text-align: center;
+    color: white;
+    font-family: fantasy; 
+}
+.vibe{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+/* contact us area */
+ .cool{
+    background-color: #f0f2f5; 
+    height: 600px;
+} 
+.Deeney{
+    margin-left: 500px;
+}
+h4{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+} 
+ h2{
+    text-align: center;
+    font-size: 70px;
+    font-family: fantasy;
+}
+.follow{
+    text-align: center;
+    margin-top: 300px;
+}
+
+footer img{
+    width: 60px;
+}
+.facebook{
+    margin-left: 500px;
+} 
