@@ -11,23 +11,24 @@
 </head>
 
 <body>
-    <!-- Text section  -->
-    <div class="Adoption">
-        <h1><b>Pets Available For Adoption</b></h1>
-    </div>
-
     <!-- Navigation section  -->
     <header class="gallery">
-        <ul class="nav nav-pills justify-content-center fixed-top">
-            <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
-            <li class="nav-item"><a href="gallery.html#DOGS" class="nav-link">DOGS</a></li>
-            <li class="nav-item"><a href="gallery.html#CATS" class="nav-link">CATS</a></li>
-            <li class="nav-item"><a href="gallery.html#RABBITS" class="nav-link">RABBITS</a></li>
-            <li class="nav-item"><a href="gallery.html#HAMSTERS" class="nav-link">HAMSTERS</a></li>
-            <li class="nav-item"><a href="gallery.html#EXOTIC PETS" class="nav-link">EXOTIC PETS</a></li>
-            <li class="nav-item"><a href="ContactUs.html" class="nav-link">CONTACT US</a></li>
+        <ul class="nav nav-pills justify-content-end fixed-top">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item dropdown">
+                <a href="gallery.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Available Adoption</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a href="gallery.html#DOGS" class="nav-link">DOGS</a></li>
+                    <li class="dropdown-item"><a href="gallery.html#CATS" class="nav-link">CATS</a></li>
+                    <li class="dropdown-item"><a href="gallery.html#RABBITS" class="nav-link">RABBITS</a></li>
+                    <li class="dropdown-item"><a href="gallery.html#HAMSTERS" class="nav-link">HAMSTERS</a></li>
+                    <li class="dropdown-item"><a href="gallery.html#EXOTIC PETS" class="nav-link">EXOTIC PETS</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="AboutUs.html" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="ContactUs.html" class="nav-link">Contact Us</a></li>
         </ul>
-    </header>
+    </header><br>
 
     <!-- Dogs section  -->
     <h1 class="herold">Meet Some Of Our Dogs</h1>
@@ -311,8 +312,7 @@
 
 
 
-    <script src="./js/bootstrap.bundle.js"></script>
-    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
